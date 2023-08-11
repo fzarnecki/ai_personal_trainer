@@ -1,1 +1,4 @@
 data/
+.venv
+credentials.ini
+**pycache**
