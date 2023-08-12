@@ -10,6 +10,6 @@ You can run the demo app in two ways:
 - with docker
 - without docker
 
-To run it using docker, run the ```run_docker_compose.sh``` script, inside the ```docker/`` subfolder. New container should start and the demo will be available on the port specified in the above file.
+To run it using docker, run the ```run_docker_compose.sh``` script, inside the ```docker/``` subfolder. New container should start and the demo will be available on the port specified in the above file.
 
 To run it without docker, make sure to install all the dependencies specified in ```requirements.txt```. To launch the app run ```streamlit run main.py``` from the level of the main directory. This will start the application and should open a new browser window.
