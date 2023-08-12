@@ -2,3 +2,4 @@ data/
 .venv
 credentials.ini
 **pycache**
+.env

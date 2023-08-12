@@ -1,0 +1,12 @@
+version: "3.0"
+
+services:
+  aipt:
+    restart: unless-stopped
+    build:
+      dockerfile: docker/Dockerfile
+      context: ../
+    ports:
+      - "${DEMO_PORT}:8501"
+    volumes:
+      - "${DATA_DIR}:/data/"

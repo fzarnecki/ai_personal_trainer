@@ -3,7 +3,7 @@
 # logging?
 import streamlit as st
 from typing import Dict, Any
-from utils.streamlit_setup import load_graphics, prep_sidebar, prep_title, adjust_slider_colors
+from utils.streamlit_setup import load_graphics, prep_sidebar, prep_title
 from utils.utils import (
     form_prompt_workout_plan_simple, 
     send_openai_chat_completion_request, 
@@ -40,7 +40,6 @@ def prep_questionnaire_get_input() -> Dict[str, Any]:
     ]
     gathered_data["goals"] = st.multiselect("What's your goal? (max 3)", goals, max_selections=3)
     gathered_data["additional_info"] = st.text_area("Anything you want to add? (100 chars)", "I like cats:)", height=50, max_chars=100)
-    adjust_slider_colors(sl=gathered_data["height"])
     return gathered_data
 
 
