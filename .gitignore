@@ -1,5 +1,6 @@
-data/
 .venv
 credentials.ini
 **pycache**
 .env
+/docker/data
+data

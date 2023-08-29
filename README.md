@@ -5,6 +5,11 @@ Solution designed to showcase the ability to create a contenerised application, 
 
 Such a design is very convenient in AI model testing and quick, in-house experimentation.
 
+## Showcase
+Generating a sample workout plan using the app running in docker container:
+
+<img src="https://github.com/fzarnecki/ai_personal_trainer/blob/main/data/images/showcase.gif">
+
 ## Run
 You can run the demo app in two ways:
 - with docker

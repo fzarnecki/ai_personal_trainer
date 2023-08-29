@@ -3,9 +3,9 @@ from PIL import Image
 
 
 def load_graphics(
-        logo_path: str = "data/images/logo.png", 
-        banner_path: str = "data/images/banner.png", 
-        verbose: bool = False
+        logo_path: str = "/data/images/logo.png", 
+        banner_path: str = "/data/images/banner.png", 
+        verbose: bool = True
     ):
     """ Load and put necessary images in proper places. """
     

@@ -2,7 +2,7 @@
 
 export COMPOSE_PROJECT_NAME="aipt"
 export DEMO_PORT=8501
-export DATA_DIR="./data/"
+export DATA_DIR="/Users/filipzarnecki/Documents/Code/ai_personal_trainer/data/"
 
 docker compose rm -fs
 

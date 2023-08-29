@@ -57,6 +57,7 @@ def manage_request_send(gathered_data: Dict[str, Any]):
     
 
 def main():
+    # load_graphics(logo_path="data/images/logo.png", banner_path="data/images/banner.png") # for non-docker run
     load_graphics()
     prep_sidebar()
     prep_title()
