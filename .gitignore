@@ -3,4 +3,3 @@ credentials.ini
 **pycache**
 .env
 /docker/data
-data
